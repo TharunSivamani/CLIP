@@ -1,7 +1,7 @@
 import torch
 class CFG:
     debug = False
-    image_path = "flickr30k_images/flickr30k_images"
+    image_path = "/content/flickr30k_images/flickr30k_images"
     captions_path = "."
     batch_size = 32
     num_workers = 4
